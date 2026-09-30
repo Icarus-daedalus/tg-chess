@@ -1,0 +1,10 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: var(--tg-theme-text-color);
+  background: var(--tg-theme-bg-color);
+}
+
+body {
+  min-width: 320px;
+}
+
