@@ -1,3 +1,4 @@
+import logo from '../../assets/black-king.png'
 import { Cell } from "../Cell";
 import { Colors } from "../Colors";
 
@@ -15,7 +16,7 @@ export type FigureNames = typeof FigureNames[keyof typeof FigureNames];
 
 export class Figure {
     color: Colors;
-    logo: string | null;
+    logo: typeof logo | null;
     cell: Cell;
     name: FigureNames;
     id: number;

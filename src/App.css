@@ -12,8 +12,8 @@
 }
 
 .board {
-  width:calc(64px * 8);
-  height: calc(64px * 8);
+  width:calc(128px * 8);
+  height: calc(128px * 8);
   display: flex;
   flex-wrap: wrap;
   align-items:center;
@@ -21,18 +21,28 @@
   border: 5px solid brown;
 }
 
+.cell img {
+  width: 96px;
+  height: 96px;
+  position: relative;
+}
+
 .cell {
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   display: flex;
   justify-content: center;
   align-items:center;
 }
 
 .black {
-  background-color: deepskyblue;
+  background-color: #5B7DA8;
 }
 
 .white {
-  background-color: #eed4ac;
+  background-color: #DCE6F2;
+}
+
+.selected {
+  background-color: brown;
 }
